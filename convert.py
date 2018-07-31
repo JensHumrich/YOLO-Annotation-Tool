@@ -61,7 +61,7 @@ for txt_name in txt_name_list:
         #print('lenth of line is: ')
         #print(len(line))
         #print('\n')
-        if(len(line) >= 2):
+        if(len(line.split(' ')) >= 2):
             ct = ct + 1
             print(line + "\n")
             elems = line.split(' ')
